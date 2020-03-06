@@ -20,7 +20,7 @@ namespace AdminApi.Models
         public int Status { get; set; }
         public string FullName { get; set; }
         public int isAdmin { get; set; }
-        public string Avarta { get; set; }
+        public string Avatar { get; set; }
         public int isAdminOrigin { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime LastTimeLogin { get; set; }

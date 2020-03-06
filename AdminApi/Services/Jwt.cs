@@ -35,7 +35,7 @@ namespace AdminApi.Services
                         new Claim(appSetting.jwtFullName, user.FullName),
                         new Claim(appSetting.jwtEmail, user.Email.ToString()),
                         //new Claim("isAdmin", user.isAdmin.ToString()),
-                        //new Claim("Avarta", user.Avarta)
+                        //new Claim("Avatar", user.Avatar)
                         //new Claim("isAdminOrigin", user.isAdminOrigin.ToString())
                     }),
                     Expires = DateTime.Now.AddHours(appSetting.TokenExpire),

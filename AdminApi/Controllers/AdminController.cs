@@ -26,7 +26,7 @@ namespace AdminApi.Controllers
         }
 
         [Authorize]
-        [HttpGet] 
+        [HttpGet("get-all")]
         public ActionResult<Response> getList(int Id = 0, string text = "", int status = -1)
         {
             try
@@ -35,7 +35,7 @@ namespace AdminApi.Controllers
 
                 return new Response(list);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 NLogLogger.Error(string.Format("CheckLogin: {0}", e.ToString()));
                 return new Response(e.ToString());
@@ -49,8 +49,11 @@ namespace AdminApi.Controllers
             try
             {
                 var list = _adminAccess.SP_User_GetListAndInfo(Convert.ToInt32(_account.AccountID), "", -1);
+                var info = new AdminModel();
+                if (list.Count > 0)
+                    info = list[0];
 
-                return new Response(list);
+                return new Response(info);
             }
             catch (Exception e)
             {
