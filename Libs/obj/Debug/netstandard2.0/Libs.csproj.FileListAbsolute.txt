@@ -1,0 +1,8 @@
+C:\IIS\AdminApi\Libs\bin\Debug\netstandard2.0\Libs.deps.json
+C:\IIS\AdminApi\Libs\bin\Debug\netstandard2.0\Libs.dll
+C:\IIS\AdminApi\Libs\bin\Debug\netstandard2.0\Libs.pdb
+C:\IIS\AdminApi\Libs\obj\Debug\netstandard2.0\Libs.csprojAssemblyReference.cache
+C:\IIS\AdminApi\Libs\obj\Debug\netstandard2.0\Libs.AssemblyInfoInputs.cache
+C:\IIS\AdminApi\Libs\obj\Debug\netstandard2.0\Libs.AssemblyInfo.cs
+C:\IIS\AdminApi\Libs\obj\Debug\netstandard2.0\Libs.dll
+C:\IIS\AdminApi\Libs\obj\Debug\netstandard2.0\Libs.pdb

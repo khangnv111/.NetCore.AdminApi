@@ -1,0 +1,112 @@
+2020-03-04 11:16:51.4121 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 11:19:03.3886 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 11:22:10.2595 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 11:27:40.6589 INFO AdminAccess.Login 
+	Login Out: -1  
+2020-03-04 11:41:06.0210 INFO AdminAccess.Login 
+	Login Out: -2  
+2020-03-04 11:42:57.0876 INFO AdminAccess.Login 
+	Login Out: -2  
+2020-03-04 11:45:04.7486 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 11:45:14.5245 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 11:52:28.6787 INFO AdminAccess.Login 
+	Login Out: -2  
+2020-03-04 12:03:54.5347 INFO AdminAccess.Login 
+	Login Out: -2  
+2020-03-04 12:04:02.6618 INFO AdminAccess.Login 
+	Login Out: -1  
+2020-03-04 12:05:10.3130 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 12:33:49.8444 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 12:34:27.7418 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 12:35:31.1519 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 12:38:17.4396 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 12:39:28.5856 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 12:40:38.0876 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 14:39:15.5401 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 14:42:08.6072 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 14:44:06.7041 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 14:45:04.6141 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 14:46:22.2622 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 14:47:09.4292 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 14:50:20.2475 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 14:52:54.1236 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 14:53:40.9274 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 14:59:05.9848 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 15:41:12.1748 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 15:41:41.8842 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 15:43:19.2730 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 15:48:32.8636 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 15:49:28.9485 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 15:52:36.1044 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 15:52:52.7056 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 17:05:10.7856 ERROR AdminAccess.Login 
+Invalid column name 'Avarta'.
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 385
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 397
+   at Libs.DBHelper.GetInstanceSP[T](String SPName, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 413
+   at AdminApi.DataAccess.AdminAccess.Login(String UserName, String Password, Int32& ResponseStatus) in C:\IIS\AdminApi\AdminApi\DataAccess\AdminAccess.cs:line 34
+2020-03-04 17:05:30.9667 ERROR AdminAccess.Login 
+Invalid column name 'Avarta'.
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 385
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 397
+   at Libs.DBHelper.GetInstanceSP[T](String SPName, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 413
+   at AdminApi.DataAccess.AdminAccess.Login(String UserName, String Password, Int32& ResponseStatus) in C:\IIS\AdminApi\AdminApi\DataAccess\AdminAccess.cs:line 34
+2020-03-04 17:05:32.0448 ERROR AdminAccess.Login 
+Invalid column name 'Avarta'.
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 385
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 397
+   at Libs.DBHelper.GetInstanceSP[T](String SPName, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 413
+   at AdminApi.DataAccess.AdminAccess.Login(String UserName, String Password, Int32& ResponseStatus) in C:\IIS\AdminApi\AdminApi\DataAccess\AdminAccess.cs:line 34
+2020-03-04 17:05:49.8011 ERROR AdminAccess.Login 
+Invalid column name 'Avarta'.
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 385
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 397
+   at Libs.DBHelper.GetInstanceSP[T](String SPName, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 413
+   at AdminApi.DataAccess.AdminAccess.Login(String UserName, String Password, Int32& ResponseStatus) in C:\IIS\AdminApi\AdminApi\DataAccess\AdminAccess.cs:line 34
+2020-03-04 17:08:08.2742 ERROR AdminAccess.Login 
+Invalid column name 'Avarta'.
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 385
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 397
+   at Libs.DBHelper.GetInstanceSP[T](String SPName, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 413
+   at AdminApi.DataAccess.AdminAccess.Login(String UserName, String Password, Int32& ResponseStatus) in C:\IIS\AdminApi\AdminApi\DataAccess\AdminAccess.cs:line 34
+2020-03-04 17:08:46.7619 ERROR AdminAccess.Login 
+Invalid column name 'Avarta'.
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 385
+   at Libs.DBHelper.GetInstance[T](SqlCommand sqlCommand, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 397
+   at Libs.DBHelper.GetInstanceSP[T](String SPName, SqlParameter[] Parameters) in C:\IIS\AdminApi\Libs\Database\DBHelper.cs:line 413
+   at AdminApi.DataAccess.AdminAccess.Login(String UserName, String Password, Int32& ResponseStatus) in C:\IIS\AdminApi\AdminApi\DataAccess\AdminAccess.cs:line 34
+2020-03-04 17:09:01.1259 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 17:09:40.3892 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
+2020-03-04 17:10:53.8298 INFO AdminAccess.Login 
+	Login Out: 1 AdminApi.Models.AdminModel 
