@@ -33,7 +33,7 @@ namespace AdminApi.Controllers
             {
                 var list = _adminAccess.SP_User_GetListAndInfo(Id, text, status);
 
-                return new Response(list);
+                return new Response(list.Count, "ok", list);
             }
             catch (Exception e)
             {
