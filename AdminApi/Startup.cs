@@ -84,6 +84,7 @@ namespace AdminApi
             //Khai báo access
             services.AddSingleton<BooksAccess>();
             services.AddSingleton<AdminAccess>();
+            services.AddSingleton<GiftCodeAccess>();
             services.AddSingleton<Jwt>();
             services.AddSingleton<AccountJwt>();
         }

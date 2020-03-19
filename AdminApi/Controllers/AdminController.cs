@@ -37,7 +37,7 @@ namespace AdminApi.Controllers
             }
             catch (Exception e)
             {
-                NLogLogger.Error(string.Format("CheckLogin: {0}", e.ToString()));
+                NLogLogger.Error(string.Format("Error: {0}", e.ToString()));
                 return new Response(e.ToString());
             }
         }
