@@ -28,10 +28,10 @@ namespace AdminApi.DataAccess
                 var pars = new SqlParameter[] {
                     new SqlParameter("@_ResponseStatus", SqlDbType.Int) { Direction = ParameterDirection.Output },
                     new SqlParameter("@_UserName", UserName),
-                    new SqlParameter("@_Password", Password),
+                    new SqlParameter("@_PassWord", Password),
                 };
 
-                var data = db.GetInstanceSP<AdminModel>("SP_Users_CheckLogin", pars);
+                var data = db.GetInstanceSP<AdminModel>("SP_Admin_CheckLogin", pars);
                 ResponseStatus = Convert.ToInt32(pars[0].Value);
                 NLogLogger.Info(string.Format("Login Out: {0} {1} ", ResponseStatus, data));
                 return data;
